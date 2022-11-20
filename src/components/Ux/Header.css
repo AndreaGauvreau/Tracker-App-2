@@ -1,0 +1,32 @@
+.headercomponents {
+  background: #00000040;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  min-width: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 0px 10px #00000020;
+}
+
+.profil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profil img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+header {
+  min-height: 20vh;
+  max-height: 20vh;
+}

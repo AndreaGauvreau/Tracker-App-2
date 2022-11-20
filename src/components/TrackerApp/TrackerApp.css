@@ -1,0 +1,43 @@
+section {
+  display: flex;
+  flex-direction: row;
+  max-height: 80vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    198deg,
+    rgba(47, 53, 93, 1) 0%,
+    rgba(7, 8, 13, 1) 100%
+  );
+  min-height: 100vh;
+  min-width: 600px;
+}
+body {
+  margin: 0;
+  font-family: Poppins;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.headlistingtracker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.headlistingtracker input {
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: #ffffff05;
+  border: none;
+  color: white;
+  min-width: 300px;
+  box-sizing: border-box;
+}

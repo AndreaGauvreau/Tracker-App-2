@@ -1,0 +1,99 @@
+.dateTime {
+  display: flex;
+  flex-direction: row;
+}
+
+.dateTime span,
+.DayJS {
+  background: #00000020;
+  color: white;
+  margin: 10px;
+  padding: 5px 15px;
+  font-size: 10px;
+  border-radius: 10px;
+  font-weight: 200;
+}
+.dateTime span:last-child {
+  background: #ffffff;
+  color: black;
+  margin: 10px;
+  padding: 5px 15px;
+}
+.rowDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff10;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 20px;
+}
+#selected {
+  background: red;
+}
+h3 {
+  margin: 0px;
+  color: white;
+}
+
+.datetext {
+  font-weight: 800 !important;
+}
+
+.duree {
+  font-weight: 200;
+}
+
+h2 {
+  color: white;
+  margin: 10px 0px 10px 20px;
+}
+
+.trackerlist {
+  overflow-y: scroll;
+  max-height: 60vh;
+  min-width: 400px;
+  padding: 0px 20px 40px 20px;
+  background: #ffffff08;
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+
+/*scrollbar
+------------------------------------
+------------------------------------
+------------------------------------
+*/
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #66666600;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

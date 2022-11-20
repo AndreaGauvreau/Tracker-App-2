@@ -1,0 +1,105 @@
+.toolbox {
+  background-color: #00000040;
+  height: 100%;
+  border-radius: 40px 40px 0px 0px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  color: white;
+  max-width: 600px;
+  min-height: 70vh;
+  max-height: 80vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+select {
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: #ffffff05;
+  border: none;
+  color: white;
+  margin: 10px;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: #ffffff50;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+#dateinput {
+  width: 45%;
+}
+
+#textinput {
+  width: 95%;
+}
+
+.formmodal {
+  background: #ffffff05;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 10px #ffffff10;
+  border-radius: 40px 40px 0px 0px;
+  transform: translateY(60vh);
+  transition: 0.5s ease;
+}
+.userdatamodal {
+  background: #ffffff05;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 10px #ffffff10;
+  border-radius: 40px 40px 0px 0px;
+  transform: translateY(60vh);
+  transition: 0.5s ease;
+  position: absolute;
+}
+#remonter {
+  transform: translateY(0vh);
+  transition: 0.5s ease;
+}
+form {
+  opacity: 0%;
+  transition: 0.2s;
+}
+#remonter form {
+  opacity: 100%;
+  transition: 0.2s;
+}
+
+.actionbutton {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+}
+
+#startbutton {
+  background: linear-gradient(
+    54deg,
+    rgba(209, 28, 28, 1) 0%,
+    rgba(255, 123, 46, 1) 100%
+  );
+  padding: 20px 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+  min-width: 300px;
+  box-shadow: 0px 0px 0px 10px #ffffff10;
+  transition: 0.3s;
+}
+
+#startbutton:hover {
+  transition: 0.3s;
+  opacity: 80%;
+}
